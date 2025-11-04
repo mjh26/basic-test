@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Basic Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Latest schedule</h2>
+        <article>
+            <h3>School</h3>
+            <p>There is only a few weeks left of school until the exams are starting.</p>
+            <img src="media/campus.jpg" alt="Students" width="300">
+        </article>
+        <article>
+            <h3>Exams</h3>
+            <p>I will be taking four exams this fall semester.</p>
+            <img src="media/books.jpg" alt="Study" width="300">
+        </article>
+    </section>
+
+    <aside>
+        <h2>Related Links</h2>
+        <ul>
+            <li><a href="https://www.oslomet.no/">OsloMet</a></li>
+            <li><a href="https://oslomet.instructure.com/">Canvas</a></li>
+            <li><a href="https://www.w3schools.com/">Coding</a></li>
+        </ul>
+    </aside>
+
+    <section>
+        <h2>Contact me</h2>
+        <form aria-labelledby="form-title" role="form">
+            <h3 id="form-title">Send a message</h3>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" aria-required="true" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" aria-required="true" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" aria-required="true" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; BasicTest 2025</p>
+</footer>
+
+</body>
+</html>
